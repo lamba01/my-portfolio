@@ -31,8 +31,7 @@ export default function navBar() {
         </a>
         <Link
           className="text-sm md:text-lg text-white/80 hover:text-white hidden sm:block"
-          href="/#contact"
-          rel="noopener noreferrer"
+          href="/contact"
         >
           contact
         </Link>

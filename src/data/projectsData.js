@@ -6,12 +6,13 @@ const projectsData = [
   {
     id: 1,
     title: "Centre for Population and Health Research Website",
-    image: "/images/cepher-logo.jpeg",
+    image: "/images/project1.png",
     logo: "/images/cepher-logo.jpeg",
     // title: "Centre for Population and Health Research Website",
     description: `Modern nonprofit website to increase credibility and public awareness.`,
     technologies: ["React", "Tailwind CSS", "CMS", "Contentful", "Vite"],
     caseStudyLink: "/case-studies/cepher",
+    liveLink: null,   
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ const projectsData = [
       "Firebase Auth",
     ],
     caseStudyLink: "/case-studies/mcken-booking",
+    liveLink: null,   
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const projectsData = [
     description: `Built a complete online journal system with submission workflow, peer review, and DOI integration.`,
     technologies: ["OJS", "PHP", "JavaScript", "CPanel"],
     caseStudyLink: "/case-studies/njsh",
+    liveLink: null,   
   },
   {
     id: 4,
@@ -53,8 +56,44 @@ const projectsData = [
       "Google Business Profile",
       "Search Console",
     ],
-    caseStudyLink: "/case-studies/sb-lofa", // internal route
+    caseStudyLink: "/case-studies/sb-lofa", 
+    liveLink: null,   
+  
   },
+  {
+  id: 5,
+  title: "Rwatos LTD Web Design",
+  image: "/images/rwatos2.png",
+  logo: "/images/rwatoslogo.png",
+  description:
+    "Designed and built a high-converting landing page for a UK-based trades business, focused on capturing local leads and turning website visits into booked enquiries.",
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Conversion Optimisation",
+    "Local SEO",
+    "Google Analytics",
+  ],
+  liveLink: "https://rwatosltd.com",   // 👈 external live site
+  caseStudyLink: null,   
+},
+{
+  id: 6,
+  title: "UK Service Business Landing Page",
+  image: "/images/claxxafter.png",
+  logo: "/images/claxx-logo.png",
+  description:
+    "Built a focused landing page for a UK service provider, combining clear messaging and strong calls-to-action to drive customer enquiries from local search traffic.",
+  technologies: [
+    "React",
+    "Tailwind CSS",
+    "Lead Generation",
+    "Local SEO",
+    "Responsive Design",
+  ],
+  liveLink: "https://claxxltd.co.uk/",   // 👈 external live site
+  caseStudyLink: null,   
+},
 ];
 
 export default projectsData;
