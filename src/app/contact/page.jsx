@@ -62,8 +62,8 @@ export default function Contact() {
       className="relative py-24 px-6 sm:px-12 bg-[#0a0a0a] text-white overflow-hidden"
     >
       {/* Background glow blobs */}
-      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute -bottom-40 -right-40 w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-[100px] pointer-events-none" />
+      <div className="absolute -top-40 -left-40 w-125 h-125 bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute -bottom-40 -right-40 w-100 h-100 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto">
         {/* Header */}
@@ -79,7 +79,7 @@ export default function Contact() {
           </p>
           <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
             Let&apos;s build something{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-blue-500">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-blue-500">
               great together
             </span>
           </h2>
@@ -260,7 +260,7 @@ export default function Contact() {
               <button
                 type="submit"
                 disabled={state.submitting}
-                className="w-full py-3.5 rounded-xl font-semibold text-white text-sm bg-gradient-to-r from-indigo-500 to-blue-600 hover:shadow-lg hover:shadow-indigo-500/25 hover:scale-[1.02] transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
+                className="w-full py-3.5 rounded-xl font-semibold text-white text-sm bg-linear-to-r from-indigo-500 to-blue-600 hover:shadow-lg hover:shadow-indigo-500/25 hover:scale-[1.02] transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed cursor-pointer"
               >
                 {state.submitting ? "Sending..." : "Send Message →"}
               </button>
