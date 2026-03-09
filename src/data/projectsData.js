@@ -1,6 +1,6 @@
 import { FiExternalLink } from "react-icons/fi";
 import { title } from "framer-motion/client";
-import logo from "@/assets/logo.png";
+import logo from "@/../public/images/logo.png";
 
 const projectsData = [
   {

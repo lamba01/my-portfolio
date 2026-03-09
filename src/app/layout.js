@@ -1,70 +1,136 @@
-"use client";
-
+import { Inter } from "next/font/google";
+import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import "./globals.css";
-// import StickyContactButton from "@/components/StickyContactBtn";
-import { usePathname } from "next/navigation";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-// import ScrollToTop from "@/components/ScrollToTop";
+import Banner from "@/sections/banner";
+// import StickyContactButton from "@/components/stickyContactBtn";
+import AOSInit from "@/components/AOSInit";
 
-export default function RootLayout({ children }) {
-  const pathname = usePathname();
+const inter = Inter({ subsets: ["latin"] });
 
-  // initialize AOS animations
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
-  }, []);
+// ✅ SEO: Global metadata — applies to all pages unless overridden
+export const metadata = {
+  metadataBase: new URL("https://johncodes.xyz"),
+  title: {
+    default: "John Oluwafemi | Fullstack Web Developer in Lagos, Nigeria",
+    template: "%s | John Oluwafemi",
+  },
+  description:
+    "John Oluwafemi is a fullstack web developer based in Lagos, Nigeria. I build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
+  keywords: [
+    "fullstack web developer Lagos",
+    "web developer Nigeria",
+    "React developer Lagos",
+    "Next.js developer Nigeria",
+    "hire web developer Lagos",
+    "eCommerce website developer",
+    "booking website developer Nigeria",
+  ],
+  authors: [{ name: "John Oluwafemi", url: "https://johncodes.xyz" }],
+  creator: "John Oluwafemi",
+  openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: "https://johncodes.xyz",
+    siteName: "John Codes",
+    title: "John Oluwafemi | Fullstack Web Developer in Lagos",
+    description:
+      "I build fast, SEO-optimised websites and web apps for businesses in Lagos and beyond.",
+    images: [
+      {
+        url: "/john-oluwafemi.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "John Oluwafemi – Fullstack Web Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "John Oluwafemi | Fullstack Web Developer",
+    description:
+      "Building fast, scalable websites and web apps for businesses.",
+    creator: "@lambacodes",
+    images: ["/john-oluwafemi.jpeg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://johncodes.xyz",
+  },
+};
 
-  const hideNavbarPaths = ["/business", "/clothing-site", "/beauty-booking"];
+// ✅ SEO: JSON-LD Structured Data (Person schema)
+function StructuredData() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "John Oluwafemi",
+    url: "https://johncodes.xyz",
+    image: "https://johncodes.xyz/john-oluwafemi.jpeg",
+    jobTitle: "Fullstack Web Developer",
+    description:
+      "Fullstack web developer in Lagos, Nigeria specialising in React, Next.js, and Node.js.",
+    email: "mailto:moyinooluwafemi2004@gmail.com",
+    sameAs: [
+      "https://www.linkedin.com/in/johnmoyinoluwa/",
+      "https://github.com/lamba01/",
+      "https://twitter.com/lambacodes",
+    ],
+    worksFor: {
+      "@type": "Organization",
+      name: "Freelance",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Lagos",
+      addressCountry: "NG",
+    },
+    knowsAbout: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Tailwind CSS",
+      "SEO",
+      "eCommerce websites",
+      "booking platforms",
+      "web development Lagos",
+      "fullstack development",
+    ],
+  };
 
   return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export default function RootLayout({ children }) {
+  return (
     <html lang="en">
-      <body>
-        {/* <ScrollToTop /> */}
-
-        {/* JSON-LD Schema */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{
-          __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "John Oluwafemi",
-            "url": "https://johncodes.xyz",
-            "image": "https://johncodes.xyz/john-oluwafemi.jpeg",
-            "sameAs": [
-              "https://www.linkedin.com/in/johnmoyinoluwa/",
-              "https://github.com/lamba01/"
-            ],
-            "email": "mailto:moyinooluwafemi2004@gmail.com",
-            "jobTitle": "Full-Stack Web Developer",
-            "worksFor": {
-              "@type": "Organization",
-              "name": "Freelance"
-            },
-            "knowsAbout": ["React", "Node.js", "Tailwind CSS", "SEO", "business websites", 
-              "landing pages", "web applications", "web design", "UI/UX design", "digital marketing", "NGO websites",
-              "SaaS", "eCommerce", "web development", "frontend development", "backend development",
-              "full-stack development", "software engineering", "web developer", "developer"],
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Lagos",
-              "addressCountry": "NG"
-            }
-          }
-          `
-        }} />
-
+      <head>
+        <StructuredData />
+      </head>
+      <body className={inter.className}>
+        {/* ✅ AOS animations initialised client-side only */}
+        <AOSInit />
         <Navbar />
-
-        {/* Page content */}
+        {/* <StickyContactButton /> */}
         {children}
-
-        {/* Footer */}
+        <Banner />
         <Footer />
       </body>
-    </html> 
+    </html>
   );
 }
