@@ -30,8 +30,8 @@ export default function Stats() {
   const stats = [
     { label: "Years of Experience", value: 4 },
     { label: "Completed Projects", value: 20 },
-    { label: "Happy Clients", value: 20 },
-    { label: "Technologies Mastered", value: 10 },
+    { label: "Happy Clients", value: 15 },
+    { label: "Technologies Mastered", value: 7 },
   ];
 
   return (

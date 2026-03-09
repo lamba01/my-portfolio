@@ -56,8 +56,7 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.6 }}
           className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto"
         >
-          I&apos; a fullstack web developer.I help
-          businesses build websites that generate revenue fast, SEO-optimised,
+          I help businesses build websites that generate revenue fast, SEO-optimised,
           and built to convert.The kind that load
           fast, look great on any device, and turn visitors into paying
           customers. No jargon, no fluff. Just results.
@@ -72,13 +71,13 @@ export default function Hero() {
           {/* ✅ Anchor link scrolls to projects section */}
           <a
             href="#projects"
-            className="px-6 py-3 rounded-full bg-linear-to-r from-indigo-500 to-purple-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow"
+            className="px-6 py-3 w-full sm:w-fit rounded-full bg-linear-to-r from-indigo-500 to-purple-600 text-white font-medium shadow-lg hover:shadow-xl transition-shadow"
           >
             View My Work
           </a>
           <a
-            href="#contact"
-            className="px-6 py-3 rounded-full border border-white/20 text-white font-medium hover:bg-white/10 transition"
+            href="/contact"
+            className="px-6 py-3 w-full sm:w-fit rounded-full border border-white/20 text-white font-medium hover:bg-white/10 transition"
           >
             Get In Touch
           </a>

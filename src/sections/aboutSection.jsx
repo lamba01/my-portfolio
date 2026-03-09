@@ -57,11 +57,11 @@ const item = {
 
 export default function AboutSection() {
   return (
-    <section className="w-full pt-14 pb-24 px-6 sm:px-12 flex flex-col items-center gap-20 bg-[#0a0a0a] text-gray-200">
+    <section className="w-full pt-14 pb-2 px-6 sm:px-12 flex flex-col items-center gap-20 bg-[#0a0a0a] text-gray-200">
 
       {/* Bio */}
       {/* Capabilities Grid */}
-      <div className="w-full max-w-5xl">
+      <div className="w-full max-w-7xl">
         <h4
           className="text-3xl md:text-5xl font-bold mb-3 text-center pb-10"
           data-aos="fade-up"

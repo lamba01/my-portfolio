@@ -183,7 +183,7 @@ const ExperienceItem = ({ exp, testimonial, fromLeft, index }) => {
 
           <div className="mt-4 text-right">
             <a
-              href="#contact"
+              href="/contact"
               className="inline-block px-4 py-2 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white text-sm transition"
             >
               Work with me ↗
