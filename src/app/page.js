@@ -7,9 +7,9 @@ import About from "@/sections/aboutSection";
 
 // ✅ SEO: Page-level metadata (overrides layout defaults for this page)
 export const metadata = {
-  title: "John Oluwafemi | Fullstack Web Developer in Lagos, Nigeria",
+  title: "Web Developer in Edmonton, Canada",
   description:
-    "I'm John Oluwafemi, a fullstack web developer based in Lagos, Nigeria. I help startups and businesses build responsive websites, eCommerce stores, and booking platforms that convert.",
+    "I help startups and businesses build responsive websites, eCommerce stores, and booking platforms that convert.",
   alternates: {
     canonical: "https://johncodes.xyz",
   },

@@ -12,19 +12,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://johncodes.xyz"),
   title: {
-    default: "John Oluwafemi | Fullstack Web Developer in Lagos, Nigeria",
+    default: "Fullstack Web Developer",
     template: "%s | John Oluwafemi",
   },
   description:
-    "John Oluwafemi is a fullstack web developer based in Lagos, Nigeria. I build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
+    "John Oluwafemi is a fullstack web developer with work based in Edmonton, Canada. I build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
   keywords: [
-    "fullstack web developer Lagos",
-    "web developer Nigeria",
-    "React developer Lagos",
-    "Next.js developer Nigeria",
-    "hire web developer Lagos",
+    "fullstack web developer",
+    "web developer canada",
+    "React developer",
+    "Next.js developer",
+    "hire web developer in canada",
     "eCommerce website developer",
-    "booking website developer Nigeria",
+    "booking website developer toronto",
   ],
   authors: [{ name: "John Oluwafemi", url: "https://johncodes.xyz" }],
   creator: "John Oluwafemi",
@@ -33,9 +33,9 @@ export const metadata = {
     locale: "en_NG",
     url: "https://johncodes.xyz",
     siteName: "John Codes",
-    title: "John Oluwafemi | Fullstack Web Developer in Lagos",
+    title: "Fullstack Web Developer in Edmonton, Canada",
     description:
-      "I build fast, SEO-optimised websites and web apps for businesses in Lagos and beyond.",
+      "I build fast, SEO-optimised websites and web apps for businesses in Canada and beyond.",
     images: [
       {
         url: "/john-oluwafemi.jpeg",
@@ -79,7 +79,7 @@ function StructuredData() {
     image: "https://johncodes.xyz/john-oluwafemi.jpeg",
     jobTitle: "Fullstack Web Developer",
     description:
-      "Fullstack web developer in Lagos, Nigeria specialising in React, Next.js, and Node.js.",
+      "Fullstack web developer specialising in React, Next.js, and Node.js.",
     email: "mailto:moyinooluwafemi2004@gmail.com",
     sameAs: [
       "https://www.linkedin.com/in/johnmoyinoluwa/",
