@@ -11,7 +11,7 @@ export default function ThankYou() {
         Thank you! 🎉
       </h1>
       <p className="text-gray-400 text-lg max-w-md mb-8">
-        Your message has been received. I&apos;ll get back to you within 24 hours.
+        Your message has been received. I&apos;ll get back to you within 20 minutes.
       </p>
       <Link
         href="/"

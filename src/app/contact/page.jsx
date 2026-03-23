@@ -84,7 +84,7 @@ export default function Contact() {
             </span>
           </h2>
           <p className="mt-4 text-gray-400 max-w-xl mx-auto text-base sm:text-lg">
-            Have a project in mind? Fill out the form and I&apos;ll get back to
+            Have a project in mind? Fill out the form and We&apos;ll get back to
             you within 24 hours.
           </p>
         </motion.div>

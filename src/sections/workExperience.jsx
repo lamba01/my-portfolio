@@ -46,7 +46,7 @@ const experiences = [
 const testimonials = [
   {
     quote:
-      "John has been instrumental in maintaining the stability and efficiency of our journal's online platform. He ensures that our website runs smoothly and all technical issues are resolved before they disrupt our publishing workflow.",
+      "JohnCodes has been instrumental in maintaining the stability and efficiency of our journal's online platform. He ensures that our website runs smoothly and all technical issues are resolved before they disrupt our publishing workflow.",
     name: "Prof Femi Tinuola",
     role: "Editor-in-Chief, NJSH",
   },
@@ -58,19 +58,19 @@ const testimonials = [
   },
   {
     quote:
-      "John did an excellent job developing our website. We now reach a wider audience and have improved visibility on search engines.",
+      "JohnCodes did an excellent job developing our website. We now reach a wider audience and have improved visibility on search engines.",
     name: "Dr Helen Anthony Ekpe",
     role: "Managing Editor, NJSH",
   },
   {
     quote:
-      "John quickly set up our public site and made it easy for the team to update content. Very reliable and thoughtful developer.",
+      "JohnCodes quickly set up our public site and made it easy for the team to update content. Very reliable and thoughtful developer.",
     name: "Prof Israel Orubuloye",
     role: "CEO, CEPHER",
   },
   {
     quote:
-      "John brought fresh design ideas and solid front-end implementation to our first site — great attention to detail.",
+      "JohnCodes brought fresh design ideas and solid front-end implementation to our first site — great attention to detail.",
     name: "Vatsal Mishra",
     role: "Team Lead, Engaj Media",
   },
@@ -186,7 +186,7 @@ const ExperienceItem = ({ exp, testimonial, fromLeft, index }) => {
               href="/contact"
               className="inline-block px-4 py-2 rounded-md bg-indigo-600 hover:bg-indigo-700 text-white text-sm transition"
             >
-              Work with me ↗
+              Work with us ↗
             </a>
           </div>
         </motion.div>

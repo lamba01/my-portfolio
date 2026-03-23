@@ -2,10 +2,18 @@
 import AboutSection from "@/sections/aboutSection";
 
 // ✅ SEO: About page metadata
+// export const metadata = {
+//   title: "Freelance Fullstack Web Developer",
+//   description:
+//     "Learn more about John Oluwafemi, a fullstack web developer in Edmonton, Canada. I build eCommerce stores, booking platforms and custom websites using React, Next.js & Node.js.",
+//   alternates: {
+//     canonical: "https://johncodes.xyz/about",
+//   },
+// };
 export const metadata = {
-  title: "Freelance Fullstack Web Developer",
+  title: "About JohnCodes | Web Design Agency in Edmonton, Canada",
   description:
-    "Learn more about John Oluwafemi, a fullstack web developer in Edmonton, Canada. I build eCommerce stores, booking platforms and custom websites using React, Next.js & Node.js.",
+    "JohnCodes is an Edmonton-based web and app design agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
   alternates: {
     canonical: "https://johncodes.xyz/about",
   },
@@ -26,15 +34,15 @@ export default function About() {
               </h1>
       
               <p className="text-base sm:text-lg leading-relaxed text-gray-400">
-                With a focus on performance, usability, and business impact, I
+                With a focus on performance, usability, and business impact, We
                 specialise in building web applications that solve real problems.
                 Whether it&apos;s a revenue-generating eCommerce store, an automated
-                booking system, or a polished brand presence I approach every
+                booking system, or a polished brand presence We approach every
                 project with the same level of care and technical rigour.
               </p>
       
               <p className="text-base sm:text-lg leading-relaxed text-gray-400">
-                Beyond client work, I serve as the lead developer and moderator for
+                Beyond client work, We serve as the moderator for
                 the{" "}
                 <a
                   href="https://njsh.org.ng/index.php/njsh-journal"
@@ -49,8 +57,8 @@ export default function About() {
               </p>
       
               <p className="text-base sm:text-lg leading-relaxed text-gray-400">
-                I&apos;m driven by the belief that great software should be invisible
-              it should just work, beautifully. If you have a vision, I&apos;d
+                We&apos;re driven by the belief that great software should be invisible
+              it should just work, beautifully. If you have a vision, We&apos;d
                 love to help build it.
               </p>
       

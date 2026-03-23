@@ -66,7 +66,7 @@ export default function AboutSection() {
           className="text-3xl md:text-5xl font-bold mb-3 text-center pb-10"
           data-aos="fade-up"
         >
-          What I do
+          What We do
         </h4>
 
         <motion.div

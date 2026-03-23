@@ -56,7 +56,7 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.6 }}
           className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto"
         >
-          I help businesses build websites that generate revenue fast, SEO-optimised,
+          We help businesses build websites that generate revenue fast, SEO-optimised,
           and built to convert.The kind that load
           fast, look great on any device, and turn visitors into paying
           customers. No jargon, no fluff. Just results.
