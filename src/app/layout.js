@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Banner from "@/sections/banner";
 import StickyContactButton from "@/components/stickyContactBtn";
 import AOSInit from "@/components/AOSInit";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -245,6 +246,7 @@ export default function RootLayout({ children }) {
         {children}
         <Banner />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
