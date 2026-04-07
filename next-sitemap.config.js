@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://johncodes.xyz',
+  siteUrl: 'https://johnbuilds.site',
   generateRobotsTxt: true,
   robotsTxtOptions: {
     policies: [

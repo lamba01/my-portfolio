@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // // ✅ SEO: Global metadata — applies to all pages unless overridden
 // export const metadata = {
-//   metadataBase: new URL("https://johncodes.xyz"),
+//   metadataBase: new URL("https://johnbuilds.site"),
 //   title: {
 //     default: "Fullstack Web Developer",
 //     template: "%s | John Oluwafemi",
@@ -26,12 +26,12 @@ const inter = Inter({ subsets: ["latin"] });
 //     "eCommerce website developer",
 //     "booking website developer toronto",
 //   ],
-//   authors: [{ name: "John Oluwafemi", url: "https://johncodes.xyz" }],
+//   authors: [{ name: "John Oluwafemi", url: "https://johnbuilds.site" }],
 //   creator: "John Oluwafemi",
 //   openGraph: {
 //     type: "website",
 //     locale: "en_NG",
-//     url: "https://johncodes.xyz",
+//     url: "https://johnbuilds.site",
 //     siteName: "John Codes",
 //     title: "Fullstack Web Developer in Edmonton, Canada",
 //     description:
@@ -65,7 +65,7 @@ const inter = Inter({ subsets: ["latin"] });
 //     },
 //   },
 //   alternates: {
-//     canonical: "https://johncodes.xyz",
+//     canonical: "https://johnbuilds.site",
 //   },
 // };
 
@@ -75,8 +75,8 @@ const inter = Inter({ subsets: ["latin"] });
 //     "@context": "https://schema.org",
 //     "@type": "Person",
 //     name: "John Oluwafemi",
-//     url: "https://johncodes.xyz",
-//     image: "https://johncodes.xyz/john-oluwafemi.jpeg",
+//     url: "https://johnbuilds.site",
+//     image: "https://johnbuilds.site/john-oluwafemi.jpeg",
 //     jobTitle: "Fullstack Web Developer",
 //     description:
 //       "Fullstack web developer specialising in React, Next.js, and Node.js.",
@@ -118,13 +118,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 // ✅ SEO: Global metadata — applies to all pages unless overridden
 export const metadata = {
-  metadataBase: new URL("https://johncodes.xyz"),
+  metadataBase: new URL("https://johnbuilds.site"),
   title: {
-    default: "Web Design Agency in Edmonton, Canada",
+    default: "Web Design and Development Agency",
     template: "%s | JohnCodes",
   },
   description:
-    "JohnCodes is a web design agency in Edmonton, Canada. We build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
+    "JohnCodes is a web design and development agency. We build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
   keywords: [
     "web design agency Edmonton",
     "web design company Edmonton",
@@ -139,13 +139,20 @@ export const metadata = {
     "Next.js web design agency",
     "booking platform development",
     "small business website design Canada",
+    "website redesign Edmonton",
+    "website developer",
+    "web developer in Lagos",
+    "best web developer in Lagos",
+    "top web developer in Lagos",
+    "best developer in Nigeria",
+    "cheap developer in Nigeria",
   ],
-  authors: [{ name: "JohnCodes", url: "https://johncodes.xyz" }],
+  authors: [{ name: "JohnCodes", url: "https://johnbuilds.site" }],
   creator: "JohnCodes",
   openGraph: {
     type: "website",
     locale: "en_CA",
-    url: "https://johncodes.xyz",
+    url: "https://johnbuilds.site",
     siteName: "JohnCodes",
     title: "Web Design Agency in Edmonton, Canada | JohnCodes",
     description:
@@ -179,7 +186,7 @@ export const metadata = {
     },
   },
   alternates: {
-    canonical: "https://johncodes.xyz",
+    canonical: "https://johnbuilds.site",
   },
 };
 
@@ -189,8 +196,8 @@ function StructuredData() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "JohnCodes",
-    url: "https://johncodes.xyz",
-    image: "https://johncodes.xyz/john-oluwafemi.jpeg",
+    url: "https://johnbuilds.site",
+    image: "https://johnbuilds.site/john-oluwafemi.jpeg",
     description:
       "Web design agency in Edmonton specialising in React, Next.js, and Node.js.",
     email: "mailto:moyinooluwafemi2004@gmail.com",

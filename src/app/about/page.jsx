@@ -15,7 +15,7 @@ export const metadata = {
   description:
     "JohnCodes is an Edmonton-based web and app design agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
   alternates: {
-    canonical: "https://johncodes.xyz/about",
+    canonical: "https://johnbuilds.site/about",
   },
 };
 
