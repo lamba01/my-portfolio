@@ -45,7 +45,7 @@ export default function Hero() {
             transition={{ delay: 1, duration: 0.6, type: "spring" }}
             className="text-transparent bg-clip-text bg-linear-to-r from-pink-400 to-red-500 capitalize"
           >
-            Lagos
+            Lagos, Nigeria
           </motion.span>
         </h1>
 
