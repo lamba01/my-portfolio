@@ -11,9 +11,9 @@ import AboutSection from "@/sections/aboutSection";
 //   },
 // };
 export const metadata = {
-  title: "About JohnCodes | Web Design Agency in Edmonton, Canada",
+  title: "About JohnCodes | Web Design Agency",
   description:
-    "JohnCodes is an Edmonton-based web and app design agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
+    "JohnCodes is a web and app design agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
   alternates: {
     canonical: "https://johnbuilds.site/about",
   },

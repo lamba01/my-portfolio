@@ -64,7 +64,7 @@ export default function AboutSection() {
       <div className="w-full max-w-7xl">
           
                 <h2           className="text-3xl md:text-5xl font-bold mb-3 text-center"
-          data-aos="fade-up">Our Comprehensive Web Design and Development Services</h2>
+          data-aos="fade-up">Comprehensive Web Design Services & Development Solutions</h2>
               
         <p className="text-gray-400 text-sm max-w-3xl m-auto text-center pb-10">As a leading web design agency in Nigeria, we offer a comprehensive suite of services to 
           build a powerful and effective online presence for your business. We are committed to 
