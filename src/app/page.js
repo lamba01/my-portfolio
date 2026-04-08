@@ -5,14 +5,6 @@ import Experience from "@/sections/workExperience";
 import Tools from "@/sections/tools";
 import About from "@/sections/aboutSection";
 
-// export const metadata = {
-//   title: "Web Developer in Edmonton, Canada",
-//   description:
-//     "I help startups and businesses build responsive websites, eCommerce stores, and booking platforms that convert.",
-//   alternates: {
-//     canonical: "https://johncodes.xyz",
-//   },
-// };
 export const metadata = {
   title: "Website Development Company & E-commerce Website Development | JohnCodes",
   description:

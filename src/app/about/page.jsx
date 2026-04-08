@@ -1,15 +1,5 @@
-// ✅ Server Component — fully SSR'd for Google crawlability
 import AboutSection from "@/sections/aboutSection";
 
-// ✅ SEO: About page metadata
-// export const metadata = {
-//   title: "Freelance Fullstack Web Developer",
-//   description:
-//     "Learn more about John Oluwafemi, a fullstack web developer in Edmonton, Canada. I build eCommerce stores, booking platforms and custom websites using React, Next.js & Node.js.",
-//   alternates: {
-//     canonical: "https://johncodes.xyz/about",
-//   },
-// };
 export const metadata = {
   title: "About JohnCodes | Web Design Agency",
   description:
