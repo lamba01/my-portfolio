@@ -14,9 +14,9 @@ import About from "@/sections/aboutSection";
 //   },
 // };
 export const metadata = {
-  title: "Web Design Agency Edmonton | Websites That Convert | JohnCodes",
+  title: "Website Development Company & E-commerce Website Development | JohnCodes",
   description:
-    "JohnCodes is a web and app design agency serving businesses in Edmonton and beyond. We build fast, conversion-focused websites, eCommerce stores, and booking platforms.",
+    "JohnCodes Studio is the expert website development company for your business. As a leading web design agency, we deliver custom e-commerce website development solutions."
 };
 
 export default function Home() {

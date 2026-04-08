@@ -120,7 +120,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://johnbuilds.site"),
   title: {
-    default: "Web Design and Development Agency",
+    default: "E-commerce Website Development &amp; Web Design Services | JohnCodes Studio",
     template: "%s | JohnCodes",
   },
   description:
