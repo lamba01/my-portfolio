@@ -214,7 +214,7 @@ export default function Experience() {
         <h2 className="text-3xl md:text-5xl font-bold mb-2 capitalize">
           Professional Work Experience
         </h2>
-        <p className="text-gray-400 text-lg">Work shown with client feedback</p>
+        <p className="text-gray-400 text-lg">We believe our work speaks for itself, backed by positive feedback from our clients.</p>
       </div>
 
       <div className="relative w-full sm:w-4/5">

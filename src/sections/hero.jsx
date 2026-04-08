@@ -28,24 +28,24 @@ export default function Hero() {
       {/* ✅ SEO: h1 contains primary keyword — visible to Google via SSR */}
       <motion.div style={{ y, opacity }} className="relative z-10">
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-          Shaping Ideas{" "}
+          Premier{" "}
           <motion.span
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.6, type: "spring" }}
             className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-purple-500"
           >
-            into Websites
+            Web Design Agency
           </motion.span>
           <br />
-          that{" "}
+          in{" "}
           <motion.span
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.6, type: "spring" }}
             className="text-transparent bg-clip-text bg-linear-to-r from-pink-400 to-red-500 capitalize"
           >
-            attract customers
+            Lagos
           </motion.span>
         </h1>
 
@@ -54,12 +54,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.6, duration: 0.6 }}
-          className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto"
+          className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-4xl mx-auto"
         >
-          We help businesses build websites that generate revenue fast, SEO-optimised,
-          and built to convert.The kind that load
-          fast, look great on any device, and turn visitors into paying
-          customers. No jargon, no fluff. Just results.
+          JohnCodes Studio is a distinguished website development company dedicated to crafting 
+          high-performance, SEO-optimised websites that drive revenue. 
+          Our focus is on delivering tangible results, not technical jargon.
         </motion.p>
 
         <motion.div

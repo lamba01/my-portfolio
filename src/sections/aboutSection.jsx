@@ -14,22 +14,22 @@ const capabilities = [
   {
     icon: Code2,
     title: "Fullstack Development",
-    desc: "End-to-end web applications built with React, Next.js, Node.js, and Tailwind CSS — from database to deployment.",
+    desc: "We provide complete, end-to-end web application development. Using modern technologies like React, Next.js, and Node.js, we manage every aspect from the database architecture to final deployment, ensuring a robust and scalable solution.",
   },
   {
     icon: ShoppingCart,
-    title: "eCommerce Solutions",
-    desc: "Custom online stores designed to convert browsers into buyers, with seamless checkout and inventory management.",
+    title: "eCommerce Website Development",
+    desc: "Our expert team specialises in e-commerce website development, building custom online stores designed for maximum conversion. We implement seamless checkout processes and efficient inventory management systems to create a superior shopping experience for your clientele.",
   },
   {
     icon: CalendarCheck,
-    title: "Booking Platforms",
-    desc: "Automated scheduling systems that eliminate manual bookings, reduce no-shows, and streamline client management.",
+    title: "Custom Booking Platforms",
+    desc: "We develop automated scheduling systems that streamline client management. These platforms eliminate the need for manual bookings and reduce client no-shows, increasing operational efficiency.",
   },
   {
     icon: Search,
     title: "SEO & Visibility",
-    desc: "Technical SEO, structured data, and Google Business optimisation to drive organic traffic and improve rankings.",
+    desc: "Our services include advanced technical SEO, structured data implementation, and Google Business Profile optimisation. We employ proven strategies to drive organic traffic and elevate your search engine rankings, making your business more visible to potential customers.",
   },
   {
     icon: Layers,
@@ -63,12 +63,14 @@ export default function AboutSection() {
       {/* Capabilities Grid */}
       <div className="w-full max-w-7xl">
         <h4
-          className="text-3xl md:text-5xl font-bold mb-3 text-center pb-10"
+          className="text-3xl md:text-5xl font-bold mb-3 text-center"
           data-aos="fade-up"
         >
           What We do
         </h4>
-
+        <p className="text-gray-400 text-sm max-w-3xl m-auto text-center pb-10">As a leading web design agency in Nigeria, we offer a comprehensive suite of services to 
+          build a powerful and effective online presence for your business. We are committed to 
+          technical excellence and measurable success.</p>
         <motion.div
           variants={container}
           initial="hidden"
