@@ -4,11 +4,11 @@ import CreativeProjects from "@/sections/creativeProjects";
 
 // ✅ SEO: Projects page metadata
 export const metadata = {
-  title: "Projects & Case Studies | John Oluwafemi",
+  title: "Projects & Case Studies | JohnCodes",
   description:
-    "Explore real-world web development projects by John Oluwafemi — eCommerce apps, booking platforms, SaaS tools, and business websites built with React, Next.js, and Node.js.",
+    "Explore real-world web development projects by JohnCodes — eCommerce apps, booking platforms, SaaS tools, and business websites built with React, Next.js, and Node.js.",
   alternates: {
-    canonical: "https://johncodes.xyz/case-studies",
+    canonical: "https://johnbuilds.site/case-studies",
   },
 };
 

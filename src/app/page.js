@@ -8,7 +8,10 @@ import About from "@/sections/aboutSection";
 export const metadata = {
   title: "Website Development Company & E-commerce Website Development | JohnCodes",
   description:
-    "JohnCodes Studio is the expert website development company for your business. As a leading web design agency, we deliver custom e-commerce website development solutions."
+    "JohnCodes Studio is the expert website development company for your business. As a leading web design agency, we deliver custom e-commerce website development solutions.",
+      alternates: {
+    canonical: "https://johnbuilds.site/",
+  },
 };
 
 export default function Home() {
