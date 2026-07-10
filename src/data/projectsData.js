@@ -16,19 +16,20 @@ const projectsData = [
   },
   {
     id: 2,
-    image: "/images/mcken.png",
-    title: "Mcken Beauty Booking Platform",
-    logo: "/images/mcken.png",
-    description: `Automated booking system with calendar scheduling to eliminate call overload and prevent appointment conflicts.`,
+    title: "UNDR. — Intimate Apparel E-commerce Store",
+    image: "/images/undr-logo.png",
+    logo: "/images/undr-logo.png",
+    description:
+      "Built a full-stack e-commerce platform for a Lagos-based intimate apparel boutique, with custom CMS-managed catalog, secure payments, and order automation.",
     technologies: [
-      "React",
-      "Tailwind CSS",
-      "MongoDB",
-      "Nodejs",
-      "Express",
-      "Firebase Auth",
+      "Next.js",
+      "Payload CMS",
+      "Neon PostgreSQL",
+      "Cloudinary",
+      "Paystack",
+      "Resend",
     ],
-    caseStudyLink: "/case-studies/mcken-booking",
+    caseStudyLink: "/case-studies/undr",
     liveLink: null,
   },
   {
@@ -45,8 +46,8 @@ const projectsData = [
   {
     id: 4,
     title: "SB Lofa Driving School",
-    image: "/images/sblofa-logo.webp", // thumbnail / hero image
-    logo: "/images/glamheader-logo.png", // optional small brand logo (can remove if not needed)
+    image: "/images/sblofa-logo.webp",
+    logo: "/images/sblofa-logo.webp",
     description:
       "Increased visibility & student bookings through Local SEO and Google Business optimization.",
     technologies: [
@@ -78,20 +79,20 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Rwatos LTD Web Design",
-    image: "/images/rwatos2.png",
-    logo: "/images/rwatoslogo.png",
+    title: "Shore Residence Limited — Real Estate Portfolio",
+    image: "/images/shore-logo.png",
+    logo: "/images/shore-logo.png",
     description:
-      "Designed and built a high-converting landing page for a UK-based trades business, focused on capturing local leads and turning website visits into booked enquiries.",
+      "Designed and built a dark luxury portfolio website for a UK-based real estate company, showcasing completed properties with a refined, high-end aesthetic.",
     technologies: [
-      "React.js",
-      "Tailwind CSS",
-      "Conversion Optimisation",
-      "Local SEO",
-      "Google Analytics",
+      "Next.js",
+      "React 19",
+      "Tailwind CSS v4",
+      "Cloudinary",
+      "Responsive Design",
     ],
-    liveLink: "https://rwatosltd.com", // 👈 external live site
-    caseStudyLink: null,
+    caseStudyLink: "/case-studies/shore-residence",
+    liveLink: null,
   },
 ];
 
