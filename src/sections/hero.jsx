@@ -28,17 +28,17 @@ export default function Hero() {
       {/* ✅ SEO: h1 contains primary keyword — visible to Google via SSR */}
       <motion.div style={{ y, opacity }} className="relative z-10">
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-          Premier{" "}
+          Full-Stack{" "}
           <motion.span
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.6, type: "spring" }}
             className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-purple-500"
           >
-            Web Design Agency
+            Web Developer
           </motion.span>
           <br />
-          in{" "}
+          based in{" "}
           <motion.span
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -56,9 +56,9 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.6 }}
           className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-4xl mx-auto"
         >
-          JohnCodes Studio is a distinguished website development company dedicated to crafting 
-          high-performance, SEO-optimised websites that drive revenue. 
-          Our focus is on delivering tangible results, not technical jargon.
+          I build fast, SEO-optimised websites and web applications that drive
+          revenue — from custom e-commerce platforms to production-ready
+          full-stack apps. Tangible results, not technical jargon.
         </motion.p>
 
         <motion.div

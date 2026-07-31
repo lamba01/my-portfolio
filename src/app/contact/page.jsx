@@ -5,7 +5,15 @@ import { useForm, ValidationError } from "@formspree/react";
 import { useRouter } from "next/navigation";
 import ReCAPTCHA from "react-google-recaptcha";
 import { motion } from "framer-motion";
-import { Mail, MessageSquare, Github, Linkedin, Twitter, Clock, Zap } from "lucide-react";
+import {
+  Mail,
+  MessageSquare,
+  Github,
+  Linkedin,
+  Twitter,
+  Clock,
+  Zap,
+} from "lucide-react";
 
 const contactInfo = [
   {
@@ -84,14 +92,13 @@ export default function Contact() {
             </span>
           </h2>
           <p className="mt-4 text-gray-400 max-w-xl mx-auto text-base sm:text-lg">
-            Have a project in mind? Fill out the form and We&apos;ll get back to
+            Have a project in mind? Fill out the form and I&apos;ll get back to
             you within 24 hours.
           </p>
         </motion.div>
 
         {/* Two-column layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-
           {/* LEFT — Contact info */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -111,10 +118,16 @@ export default function Contact() {
                   className="group flex items-center gap-4 bg-[#111] border border-white/5 hover:border-indigo-500/40 rounded-2xl px-5 py-4 transition-all duration-300"
                 >
                   <div className="w-10 h-10 rounded-xl bg-indigo-500/10 group-hover:bg-indigo-500/20 flex items-center justify-center transition-colors shrink-0">
-                    <Icon size={18} className="text-indigo-400" strokeWidth={1.5} />
+                    <Icon
+                      size={18}
+                      className="text-indigo-400"
+                      strokeWidth={1.5}
+                    />
                   </div>
                   <div>
-                    <p className="text-xs text-gray-500 uppercase tracking-wider mb-0.5">{label}</p>
+                    <p className="text-xs text-gray-500 uppercase tracking-wider mb-0.5">
+                      {label}
+                    </p>
                     <p className="text-white text-sm font-medium">{value}</p>
                   </div>
                 </a>
@@ -126,9 +139,15 @@ export default function Contact() {
               {perks.map(({ icon: Icon, text }) => (
                 <div key={text} className="flex items-start gap-3">
                   <div className="mt-0.5 w-7 h-7 rounded-lg bg-indigo-500/10 flex items-center justify-center shrink-0">
-                    <Icon size={14} className="text-indigo-400" strokeWidth={1.5} />
+                    <Icon
+                      size={14}
+                      className="text-indigo-400"
+                      strokeWidth={1.5}
+                    />
                   </div>
-                  <p className="text-gray-400 text-sm leading-relaxed">{text}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">
+                    {text}
+                  </p>
                 </div>
               ))}
             </div>
@@ -148,7 +167,11 @@ export default function Contact() {
                     aria-label={label}
                     className="w-10 h-10 rounded-xl bg-[#111] border border-white/5 hover:border-indigo-500/40 hover:bg-indigo-500/10 flex items-center justify-center transition-all duration-300"
                   >
-                    <Icon size={16} className="text-gray-400 hover:text-indigo-400 transition-colors" strokeWidth={1.5} />
+                    <Icon
+                      size={16}
+                      className="text-gray-400 hover:text-indigo-400 transition-colors"
+                      strokeWidth={1.5}
+                    />
                   </a>
                 ))}
               </div>
@@ -176,7 +199,10 @@ export default function Contact() {
             >
               {/* Email */}
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1.5">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-300 mb-1.5"
+                >
                   Email Address
                 </label>
                 <input
@@ -187,12 +213,19 @@ export default function Contact() {
                   placeholder="you@example.com"
                   className="w-full px-4 py-3 rounded-xl bg-[#0d0d0d] border border-[#2a2a2a] text-white placeholder-gray-600 focus:outline-none focus:border-indigo-500 transition text-sm"
                 />
-                <ValidationError prefix="Email" field="email" errors={state.errors} />
+                <ValidationError
+                  prefix="Email"
+                  field="email"
+                  errors={state.errors}
+                />
               </div>
 
               {/* Service */}
               <div>
-                <label htmlFor="service" className="block text-sm font-medium text-gray-300 mb-1.5">
+                <label
+                  htmlFor="service"
+                  className="block text-sm font-medium text-gray-300 mb-1.5"
+                >
                   What do you need?
                 </label>
                 <select
@@ -203,18 +236,29 @@ export default function Contact() {
                 >
                   <option value="">Select a service...</option>
                   <option value="eCommerce Website">eCommerce Website</option>
-                  <option value="Booking Website">Booking / Appointment Website</option>
+                  <option value="Booking Website">
+                    Booking / Appointment Website
+                  </option>
                   <option value="Landing Page">Landing Page</option>
-                  <option value="Site Redesign">Redesign My Current Site</option>
+                  <option value="Site Redesign">
+                    Redesign My Current Site
+                  </option>
                   <option value="SEO">SEO & Visibility</option>
                   <option value="Other">Other / Not sure yet</option>
                 </select>
-                <ValidationError prefix="Service" field="service" errors={state.errors} />
+                <ValidationError
+                  prefix="Service"
+                  field="service"
+                  errors={state.errors}
+                />
               </div>
 
               {/* Budget */}
               <div>
-                <label htmlFor="budget" className="block text-sm font-medium text-gray-300 mb-1.5">
+                <label
+                  htmlFor="budget"
+                  className="block text-sm font-medium text-gray-300 mb-1.5"
+                >
                   Estimated Budget
                 </label>
                 <select
@@ -229,12 +273,19 @@ export default function Contact() {
                   <option value="$300-$500">$300 – $500</option>
                   <option value="$500+">$500+</option>
                 </select>
-                <ValidationError prefix="Budget" field="budget" errors={state.errors} />
+                <ValidationError
+                  prefix="Budget"
+                  field="budget"
+                  errors={state.errors}
+                />
               </div>
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1.5">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-300 mb-1.5"
+                >
                   Tell me about your project
                 </label>
                 <textarea
@@ -244,7 +295,11 @@ export default function Contact() {
                   placeholder="A brief description of what you're looking to build..."
                   className="w-full px-4 py-3 rounded-xl bg-[#0d0d0d] border border-[#2a2a2a] text-white placeholder-gray-600 focus:outline-none focus:border-indigo-500 transition text-sm resize-none"
                 />
-                <ValidationError prefix="Message" field="message" errors={state.errors} />
+                <ValidationError
+                  prefix="Message"
+                  field="message"
+                  errors={state.errors}
+                />
               </div>
 
               {/* reCAPTCHA */}

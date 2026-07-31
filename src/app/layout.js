@@ -12,60 +12,51 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://johnbuilds.site"),
   title: {
-    default: "E-commerce Website Development & Web Design Services | JohnCodes Studio",
-    template: "%s | JohnCodes",
+    default: "John Oluwafemi | Full-Stack Web Developer",
+    template: "%s | John Oluwafemi",
   },
-    alternates: {
-    canonical: 'https://johnbuilds.site',
+  alternates: {
+    canonical: "https://johnbuilds.site",
   },
   description:
-    "JohnCodes is a web design and development agency. We build fast, SEO-optimised websites, eCommerce stores, and booking platforms for businesses.",
+    "I'm a full-stack developer building fast, SEO-optimised websites, e-commerce stores, and booking platforms for businesses in Nigeria, Canada, and the UK.",
   keywords: [
-    "web design agency Edmonton",
-    "web design company Edmonton",
-    "web development agency Edmonton",
-    "free website",
-    "cheap website design Edmonton",
-    "free website development Edmonton",
-    "best web design agency Edmonton",
-    "top web design company Edmonton",
-    "website design Edmonton",
-    "eCommerce web design Canada",
-    "Next.js web design agency",
-    "booking platform development",
-    "small business website design Canada",
-    "website redesign Edmonton",
-    "website developer",
+    "full-stack web developer",
+    "Next.js developer",
     "web developer in Lagos",
-    "best web developer in Lagos",
-    "top web developer in Lagos",
-    "best developer in Nigeria",
-    "cheap developer in Nigeria",
+    "web developer Nigeria",
+    "eCommerce website development",
+    "custom web application development",
+    "React developer",
+    "Next.js e-commerce development",
+    "booking platform development",
+    "SEO optimisation for websites",
+    "freelance web developer Nigeria",
   ],
-  authors: [{ name: "JohnCodes", url: "https://johnbuilds.site" }],
-  creator: "JohnCodes",
+  authors: [{ name: "John Oluwafemi", url: "https://johnbuilds.site" }],
+  creator: "John Oluwafemi",
   openGraph: {
     type: "website",
-    locale: "en_CA",
+    locale: "en_US",
     url: "https://johnbuilds.site",
-    siteName: "JohnCodes",
-    title: "Web Design Agency | JohnCodes",
+    siteName: "John Oluwafemi",
+    title: "John Oluwafemi | Full-Stack Web Developer",
     description:
-      "We build fast, SEO-optimised websites and web apps for businesses in Edmonton and beyond.",
+      "I build fast, SEO-optimised websites and web apps for businesses across Nigeria, Canada, and the UK.",
     images: [
       {
         url: "/john-oluwafemi.jpeg",
         width: 1200,
         height: 630,
-        alt: "JohnCodes – Web Design Agency in Edmonton",
+        alt: "John Oluwafemi – Full-Stack Web Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JohnCodes | Web Design Agency",
+    title: "John Oluwafemi | Full-Stack Web Developer",
     description:
-      "Fast, conversion-focused websites and web apps for businesses.",
+      "Fast, conversion-focused websites and web apps, built end-to-end.",
     creator: "@lambacodes",
     images: ["/john-oluwafemi.jpeg"],
   },
@@ -80,21 +71,19 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  alternates: {
-    canonical: "https://johnbuilds.site",
-  },
 };
 
-// ✅ SEO: JSON-LD Structured Data (LocalBusiness schema)
+// ✅ SEO: JSON-LD Structured Data (Person schema)
 function StructuredData() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: "JohnCodes",
+    "@type": "Person",
+    name: "John Oluwafemi",
     url: "https://johnbuilds.site",
     image: "https://johnbuilds.site/john-oluwafemi.jpeg",
+    jobTitle: "Full-Stack Web Developer",
     description:
-      "Web design agency specialising in React, Next.js, and Node.js.",
+      "Full-stack web developer specialising in React, Next.js, and Node.js.",
     email: "mailto:moyinooluwafemi2004@gmail.com",
     sameAs: [
       "https://www.linkedin.com/in/johnmoyinoluwa/",
@@ -103,18 +92,11 @@ function StructuredData() {
     ],
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Edmonton",
-      addressRegion: "AB",
-      addressCountry: "CA",
-    },
-    founder: {
-      "@type": "Person",
-      name: "John Oluwafemi",
-      jobTitle: "Founder & Lead Developer",
-      sameAs: "https://www.linkedin.com/in/johnmoyinoluwa/",
+      addressLocality: "Lagos",
+      addressCountry: "NG",
     },
     knowsAbout: [
-      "web design",
+      "web development",
       "eCommerce websites",
       "booking platforms",
       "React",
@@ -122,7 +104,6 @@ function StructuredData() {
       "Node.js",
       "Tailwind CSS",
       "SEO",
-      "web design Edmonton",
     ],
   };
 
