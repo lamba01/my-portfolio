@@ -28,7 +28,7 @@ export default function Stats() {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const stats = [
-    { label: "Years of Experience", value: 4 },
+    { label: "Years of Experience", value: 5 },
     { label: "Completed Projects", value: 20 },
     { label: "Happy Clients", value: 15 },
     { label: "Technologies Mastered", value: 7 },
@@ -64,9 +64,7 @@ export default function Stats() {
               <Counter value={item.value} isInView={isInView} />+
             </p>
 
-            <p className="text-gray-400 text-sm sm:text-base">
-              {item.label}
-            </p>
+            <p className="text-gray-400 text-sm sm:text-base">{item.label}</p>
           </motion.div>
         ))}
       </div>

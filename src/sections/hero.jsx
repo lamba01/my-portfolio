@@ -38,15 +38,6 @@ export default function Hero() {
             Web Developer
           </motion.span>
           <br />
-          based in{" "}
-          <motion.span
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1, duration: 0.6, type: "spring" }}
-            className="text-transparent bg-clip-text bg-linear-to-r from-pink-400 to-red-500 capitalize"
-          >
-            Lagos, Nigeria
-          </motion.span>
         </h1>
 
         {/* ✅ SEO: Meta-rich description in the hero for crawlers */}
@@ -56,8 +47,8 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.6 }}
           className="mt-6 text-gray-400 text-base sm:text-lg md:text-xl max-w-4xl mx-auto"
         >
-          I build fast, SEO-optimised websites and web applications that drive
-          revenue — from custom e-commerce platforms to production-ready
+          I build fast, SEO-optimized websites and web applications that drive
+          revenue from custom e-commerce platforms to production-ready
           full-stack apps. Tangible results, not technical jargon.
         </motion.p>
 

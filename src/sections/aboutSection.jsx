@@ -58,17 +58,22 @@ const item = {
 export default function AboutSection() {
   return (
     <section className="w-full pt-14 pb-2 px-6 sm:px-12 flex flex-col items-center gap-20 bg-[#0a0a0a] text-gray-200">
-
       {/* Bio */}
       {/* Capabilities Grid */}
       <div className="w-full max-w-7xl">
-          
-                <h2           className="text-3xl md:text-5xl font-bold mb-3 text-center"
-          data-aos="fade-up">Comprehensive Web Design Services & Development Solutions</h2>
-              
-        <p className="text-gray-400 text-sm max-w-3xl m-auto text-center pb-10">As a leading web design agency in Nigeria, we offer a comprehensive suite of services to 
-          build a powerful and effective online presence for your business. We are committed to 
-          technical excellence and measurable success.</p>
+        <h2
+          className="text-3xl md:text-5xl font-bold mb-3 text-center"
+          data-aos="fade-up"
+        >
+          Comprehensive Web Design & Development Solutions
+        </h2>
+
+        <p className="text-gray-400 text-sm max-w-3xl m-auto text-center pb-10">
+          As a leading web development agency, we offer a comprehensive suite of
+          services to build a powerful and effective online presence for your
+          business. We are committed to technical excellence and measurable
+          success.
+        </p>
         <motion.div
           variants={container}
           initial="hidden"
@@ -101,8 +106,6 @@ export default function AboutSection() {
           ))}
         </motion.div>
       </div>
-
     </section>
   );
 }
-
