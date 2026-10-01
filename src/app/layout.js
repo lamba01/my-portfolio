@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import Banner from "@/sections/banner";
 import StickyContactButton from "@/components/stickyContactBtn";
 import AOSInit from "@/components/AOSInit";
+import PortfolioAgent from "@/components/portfolioAgent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -124,7 +125,8 @@ export default function RootLayout({ children }) {
         {/* ✅ AOS animations initialised client-side only */}
         <AOSInit />
         <Navbar />
-        <StickyContactButton />
+        {/* <StickyContactButton />s */}
+        <PortfolioAgent />
         {children}
         <Banner />
         <Footer />
