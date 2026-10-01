@@ -106,14 +106,35 @@ export default function PortfolioAgent() {
               ask(input);
               setInput("");
             }}
-            className="p-3 border-t border-zinc-200 dark:border-zinc-800"
+            className="flex items-center gap-2 p-3 border-t border-zinc-200 dark:border-zinc-800"
           >
             <input
-              className="w-full rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 dark:focus:ring-zinc-100"
+              className="flex-1 rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 dark:text-white px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-zinc-900 dark:focus:ring-zinc-100"
               value={input}
               placeholder="Ask a question..."
               onChange={(e) => setInput(e.currentTarget.value)}
             />
+            <button
+              type="submit"
+              disabled={!input.trim()}
+              aria-label="Send message"
+              className="h-9 w-9 shrink-0 rounded-full bg-zinc-900 dark:bg-zinc-100 text-zinc-50 dark:text-zinc-900 flex items-center justify-center disabled:opacity-40 disabled:cursor-not-allowed hover:scale-105 transition-transform"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 19V5M5 12l7-7 7 7"
+                />
+              </svg>
+            </button>
           </form>
         </div>
       )}
