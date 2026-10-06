@@ -75,46 +75,148 @@ export const metadata = {
 };
 
 // ✅ SEO: JSON-LD Structured Data (Person schema)
+// function StructuredData() {
+//   const schema = {
+//     "@context": "https://schema.org",
+//     "@type": "Person",
+//     name: "John Oluwafemi",
+//     url: "https://johnbuilds.site",
+//     image: "https://johnbuilds.site/john-oluwafemi.jpeg",
+//     jobTitle: "Full-Stack Web Developer",
+//     description:
+//       "Full-stack web developer specialising in React, Next.js, and Node.js.",
+//     email: "mailto:moyinooluwafemi2004@gmail.com",
+//     sameAs: [
+//       "https://www.linkedin.com/in/johnmoyinoluwa/",
+//       "https://github.com/lamba01/",
+//       "https://twitter.com/lambacodes",
+//     ],
+//     address: {
+//       "@type": "PostalAddress",
+//       addressLocality: "Lagos",
+//       addressCountry: "NG",
+//     },
+//     knowsAbout: [
+//       "web development",
+//       "eCommerce websites",
+//       "booking platforms",
+//       "React",
+//       "Next.js",
+//       "Node.js",
+//       "Tailwind CSS",
+//       "SEO",
+//     ],
+//   };
+
+//   return (
+//     <script
+//       type="application/ld+json"
+//       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+//     />
+//   );
+// }
 function StructuredData() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: "John Oluwafemi",
-    url: "https://johnbuilds.site",
-    image: "https://johnbuilds.site/john-oluwafemi.jpeg",
-    jobTitle: "Full-Stack Web Developer",
-    description:
-      "Full-stack web developer specialising in React, Next.js, and Node.js.",
-    email: "mailto:moyinooluwafemi2004@gmail.com",
-    sameAs: [
-      "https://www.linkedin.com/in/johnmoyinoluwa/",
-      "https://github.com/lamba01/",
-      "https://twitter.com/lambacodes",
-    ],
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Lagos",
-      addressCountry: "NG",
-    },
-    knowsAbout: [
-      "web development",
-      "eCommerce websites",
-      "booking platforms",
-      "React",
-      "Next.js",
-      "Node.js",
-      "Tailwind CSS",
-      "SEO",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://johnbuilds.site/#person",
+        name: "John Oluwafemi",
+        url: "https://johnbuilds.site",
+        image: "https://johnbuilds.site/john-oluwafemi.jpeg",
+        jobTitle: "Full-Stack Web Developer",
+        description:
+          "Full-stack web developer specialising in React, Next.js, Node.js, SEO-optimised websites, e-commerce stores, and booking platforms.",
+        email: "mailto:moyinooluwafemi2004@gmail.com",
+        sameAs: [
+          "https://www.linkedin.com/in/johnmoyinoluwa/",
+          "https://github.com/lamba01/",
+          "https://twitter.com/lambacodes",
+        ],
+        knowsAbout: [
+          "Web Development",
+          "Full-Stack Development",
+          "React",
+          "Next.js",
+          "Node.js",
+          "JavaScript",
+          "Tailwind CSS",
+          "E-commerce Development",
+          "Booking Platform Development",
+          "Search Engine Optimization",
+          "Technical SEO",
+        ],
+        worksFor: {
+          "@id": "https://johnbuilds.site/",
+        },
+      },
+
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://johnbuilds.site/",
+        name: "JohnCodes",
+        url: "https://johnbuilds.site",
+        image: "https://johnbuilds.site/john-oluwafemi.jpeg",
+        description:
+          "Web development and SEO services for businesses, including business websites, e-commerce stores, booking platforms, and custom web applications.",
+        founder: {
+          "@id": "https://johnbuilds.site/#person",
+        },
+
+        serviceType: [
+          "Web Development",
+          "Full-Stack Web Development",
+          "E-commerce Website Development",
+          "Booking Platform Development",
+          "Custom Web Application Development",
+          "Search Engine Optimization",
+        ],
+
+        areaServed: [
+          {
+            "@type": "Country",
+            name: "Nigeria",
+          },
+          {
+            "@type": "Country",
+            name: "Canada",
+          },
+          {
+            "@type": "Country",
+            name: "United Kingdom",
+          },
+        ],
+
+        knowsAbout: [
+          "Web Development",
+          "React",
+          "Next.js",
+          "Node.js",
+          "E-commerce",
+          "Booking Systems",
+          "SEO",
+        ],
+
+        sameAs: [
+          "https://www.linkedin.com/in/johnmoyinoluwa/",
+          "https://github.com/lamba01/",
+          "https://twitter.com/lambacodes",
+        ],
+      },
     ],
   };
 
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(schema),
+      }}
     />
   );
 }
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

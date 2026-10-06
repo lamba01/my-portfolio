@@ -8,7 +8,7 @@ import About from "@/sections/aboutSection";
 export const metadata = {
   title: "John Oluwafemi | Full-Stack Web Developer & E-Commerce Expert",
   description:
-    "JohnCodes Studio is the expert website development company for your business. As a leading web design agency, we deliver custom e-commerce website development solutions.",
+    "Hire John Oluwafemi, expert full-stack web developer and e-commerce specialist. Custom web design, booking platforms, and SEO services for your business.",
   alternates: {
     canonical: "https://johnbuilds.site/",
   },
