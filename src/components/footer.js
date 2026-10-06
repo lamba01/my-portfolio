@@ -23,7 +23,7 @@ export default function Footer() {
           href="mailto:moyinooluwafemi2004@gmail.com"
           className="text-lg sm:text-xl text-gray-200 hover:text-gray-300 transition-all duration-200"
         >
-          moyinooluwafemi2004@gmail.com
+          Send Me an Email
         </a>
       </div>
 

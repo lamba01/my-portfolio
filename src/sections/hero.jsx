@@ -63,11 +63,12 @@ export default function Hero() {
           >
             View My Work
           </a>
+          <button></button>
           <a
             href="/contact"
             className="px-6 py-3 w-full sm:w-fit rounded-full border border-white/20 text-white font-medium hover:bg-white/10 transition"
           >
-            Get In Touch
+            <button>Discuss your project</button>
           </a>
         </motion.div>
       </motion.div>

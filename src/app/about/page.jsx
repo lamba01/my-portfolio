@@ -32,7 +32,7 @@ export default function About() {
         </p>
 
         <p className="text-base sm:text-lg leading-relaxed text-gray-400">
-          Beyond client work, I serve as the moderator for the{" "}
+          Beyond client work, I serve as the Lead Developer for the{" "}
           <a
             href="https://njsh.org.ng/index.php/njsh-journal"
             target="_blank"

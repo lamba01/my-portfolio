@@ -2,11 +2,11 @@ import Hero from "@/sections/hero";
 import Stats from "@/sections/stats";
 import Projects from "@/components/projectComponent";
 import Experience from "@/sections/workExperience";
-import Tools from "@/sections/tools";
+// import Tools from "@/sections/tools";
 import About from "@/sections/aboutSection";
 
 export const metadata = {
-  title: "John Oluwafemi | Full-Stack Web Developer & E-Commerce Expert",
+  title: "John Oluwafemi | Full-Stack Developer & E-Commerce Expert",
   description:
     "Hire John Oluwafemi, expert full-stack web developer and e-commerce specialist. Custom web design, booking platforms, and SEO services for your business.",
   alternates: {
@@ -22,7 +22,7 @@ export default function Home() {
       <Projects />
       <Experience />
       <About />
-      <Tools />
+      {/* <Tools /> */}
     </main>
   );
 }

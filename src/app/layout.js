@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL("https://johnbuilds.site"),
   title: {
-    default: "John Oluwafemi | Full-Stack Web Developer",
+    default: "John Oluwafemi | Full-Stack Developer & E-Commerce Expert",
     template: "%s | John Oluwafemi",
   },
   alternates: {
@@ -74,47 +74,6 @@ export const metadata = {
   },
 };
 
-// ✅ SEO: JSON-LD Structured Data (Person schema)
-// function StructuredData() {
-//   const schema = {
-//     "@context": "https://schema.org",
-//     "@type": "Person",
-//     name: "John Oluwafemi",
-//     url: "https://johnbuilds.site",
-//     image: "https://johnbuilds.site/john-oluwafemi.jpeg",
-//     jobTitle: "Full-Stack Web Developer",
-//     description:
-//       "Full-stack web developer specialising in React, Next.js, and Node.js.",
-//     email: "mailto:moyinooluwafemi2004@gmail.com",
-//     sameAs: [
-//       "https://www.linkedin.com/in/johnmoyinoluwa/",
-//       "https://github.com/lamba01/",
-//       "https://twitter.com/lambacodes",
-//     ],
-//     address: {
-//       "@type": "PostalAddress",
-//       addressLocality: "Lagos",
-//       addressCountry: "NG",
-//     },
-//     knowsAbout: [
-//       "web development",
-//       "eCommerce websites",
-//       "booking platforms",
-//       "React",
-//       "Next.js",
-//       "Node.js",
-//       "Tailwind CSS",
-//       "SEO",
-//     ],
-//   };
-
-//   return (
-//     <script
-//       type="application/ld+json"
-//       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-//     />
-//   );
-// }
 function StructuredData() {
   const schema = {
     "@context": "https://schema.org",
@@ -172,11 +131,20 @@ function StructuredData() {
           "Custom Web Application Development",
           "Search Engine Optimization",
         ],
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Lagos",
+          addressCountry: "NG",
+        },
 
         areaServed: [
           {
             "@type": "Country",
             name: "Nigeria",
+          },
+          {
+            "@type": "Country",
+            name: "United States",
           },
           {
             "@type": "Country",
