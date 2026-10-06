@@ -15,9 +15,9 @@ export default function Footer() {
     >
       {/* Left Section */}
       <div className="flex flex-col gap-3 sm:gap-6 text-center sm:text-left">
-        <h1 className="text-2xl sm:text-4xl font-semibold leading-snug">
+        <h2 className="text-2xl sm:text-4xl font-semibold leading-snug">
           Let&apos;s build awesome products!
-        </h1>
+        </h2>
 
         <a
           href="mailto:moyinooluwafemi2004@gmail.com"
@@ -33,7 +33,6 @@ export default function Footer() {
           <h2 className="text-lg font-semibold capitalize">follow</h2>
 
           <div className="flex gap-4 items-center justify-center">
-            
             <a
               href="https://twitter.com/lambacodes"
               target="_blank"
@@ -69,7 +68,6 @@ export default function Footer() {
             >
               <FaGithub size={18} />
             </a>
-
           </div>
         </div>
       </aside>

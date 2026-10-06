@@ -13,9 +13,9 @@ function MckenBooking() {
           width={200}
           height={200}
         />
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center sm:text-left">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center sm:text-left">
           McKen Beauty Lounge – Case Study
-        </h1>
+        </h2>
       </div>
 
       <p className="text-indigo-400 text-lg font-semibold mb-10 text-center">
@@ -131,7 +131,7 @@ function MckenBooking() {
               >
                 {tool}
               </span>
-            )
+            ),
           )}
         </div>
       </section>

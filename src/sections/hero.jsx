@@ -24,8 +24,6 @@ export default function Hero() {
         style={{ y }}
         className="absolute inset-0 bg-linear-to-b from-[#111] via-[#0e0e0e] to-black opacity-80"
       />
-
-      {/* ✅ SEO: h1 contains primary keyword — visible to Google via SSR */}
       <motion.div style={{ y, opacity }} className="relative z-10">
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
           Full-Stack{" "}

@@ -167,7 +167,7 @@ function Njsh() {
 
         {/* Title */}
         <h1 className="text-3xl md:text-4xl font-bold mb-4">
-          NJSH – Case Study
+          Nigerian Journal of Social Health (NJSH) – Case Study
         </h1>
       </div>
 

@@ -16,12 +16,12 @@ export default function About() {
         className="flex flex-col gap-6 w-full text-center"
         data-aos="fade-up"
       >
-        <h1 className="text-3xl sm:text-5xl font-bold text-white leading-tight tracking-tight">
+        <h2 className="text-3xl sm:text-5xl font-bold text-white leading-tight tracking-tight">
           Crafting digital experiences{" "}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-blue-500">
             that drive results
           </span>
-        </h1>
+        </h2>
 
         <p className="text-base sm:text-lg leading-relaxed text-gray-400">
           With a focus on performance, usability, and business impact, I

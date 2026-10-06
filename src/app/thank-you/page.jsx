@@ -7,11 +7,10 @@ import Link from "next/link";
 export default function ThankYou() {
   return (
     <main className="min-h-screen bg-[#0e0e0e] text-white flex flex-col items-center justify-center text-center px-6">
-      <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-        Thank you! 🎉
-      </h1>
+      <h2 className="text-4xl sm:text-5xl font-bold mb-4">Thank you! 🎉</h2>
       <p className="text-gray-400 text-lg max-w-md mb-8">
-        Your message has been received. I&apos;ll get back to you within 20 minutes.
+        Your message has been received. I&apos;ll get back to you within 20
+        minutes.
       </p>
       <Link
         href="/"

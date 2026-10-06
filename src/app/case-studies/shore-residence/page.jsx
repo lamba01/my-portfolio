@@ -72,9 +72,9 @@ export default function ShoreResidenceCaseStudy() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
               Shore Residence Limited
-            </h1>
+            </h2>
             <p className="text-lg md:text-xl text-slate-300 max-w-2xl mb-8">
               A dark luxury portfolio website for a UK-based real estate
               company, built to showcase completed properties with a refined,
