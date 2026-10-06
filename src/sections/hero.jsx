@@ -26,14 +26,14 @@ export default function Hero() {
       />
       <motion.div style={{ y, opacity }} className="relative z-10">
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-          Full-Stack{" "}
+          Building Fast, Revenue-Driven Websites and{" "}
           <motion.span
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.6, type: "spring" }}
             className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-purple-500"
           >
-            Web Developer
+            Full-Stack Apps
           </motion.span>
           <br />
         </h1>
@@ -68,7 +68,7 @@ export default function Hero() {
             href="/contact"
             className="px-6 py-3 w-full sm:w-fit rounded-full border border-white/20 text-white font-medium hover:bg-white/10 transition"
           >
-            <button>Discuss your project</button>
+            <button>Get Your Free Project Estimate</button>
           </a>
         </motion.div>
       </motion.div>
