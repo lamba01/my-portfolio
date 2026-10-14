@@ -1,9 +1,9 @@
 import AboutSection from "@/sections/aboutSection";
 
 export const metadata = {
-  title: "About JohnCodes | Web Design Agency",
+  title: "About JohnCodes | Web Development Agency",
   description:
-    "JohnCodes is a web and app design agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
+    "JohnCodes is a web and app development agency specialising in eCommerce stores, booking platforms, and custom websites built with React, Next.js & Node.js.",
   alternates: {
     canonical: "https://johnbuilds.site/about",
   },
@@ -16,6 +16,7 @@ export default function About() {
         className="flex flex-col gap-6 w-full text-center"
         data-aos="fade-up"
       >
+        <h1>About John Oluwafemi | JohnCodes</h1>
         <h2 className="text-3xl sm:text-5xl font-bold text-white leading-tight tracking-tight">
           Crafting digital experiences{" "}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-400 to-blue-500">
@@ -57,7 +58,7 @@ export default function About() {
             href="/contact"
             className="inline-block px-7 py-3 rounded-full bg-linear-to-r from-indigo-500 to-blue-600 text-white font-semibold text-sm shadow-lg hover:shadow-indigo-500/30 hover:scale-105 transition-all duration-300"
           >
-            Let&apos;s work together →
+            <button>Let&apos;s work together →</button>
           </a>
         </div>
       </div>
