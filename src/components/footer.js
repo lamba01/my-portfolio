@@ -21,7 +21,7 @@ export default function Footer() {
 
         <a
           href="mailto:moyinooluwafemi2004@gmail.com"
-          className="text-lg sm:text-xl text-gray-200 hover:text-gray-300 transition-all duration-200"
+          className="text-lg sm:text-xl underline text-gray-200 hover:text-gray-300 transition-all duration-200"
         >
           Send Me an Email
         </a>
