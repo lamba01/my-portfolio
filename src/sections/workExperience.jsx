@@ -8,10 +8,10 @@ import { FaQuoteLeft } from "react-icons/fa";
 const experiences = [
   {
     company: "Nigerian Journal of Social Health",
-    date: "2024 - Present",
-    title: "Website Moderator",
+    date: "2025 - Present",
+    title: "Lead Developer",
     description:
-      "Regularly update and maintain the website, ensuring security, stability, and compliance with academic publishing standards.",
+      "Developed the NJSH journal submission website to streamline academic publishing and improve online visibility.",
   },
   {
     company: "SB Lofa Driving School",
@@ -21,22 +21,15 @@ const experiences = [
       "Optimized the Google Business Profile and implemented local SEO strategies to improve search rankings and increase student inquiries.",
   },
   {
-    company: "Nigerian Journal of Social Health",
-    date: "2024 - 2025",
-    title: "Lead Developer",
-    description:
-      "Developed the NJSH journal submission website to streamline academic publishing and improve online visibility.",
-  },
-  {
     company: "Centre for Population and Health Research",
-    date: "06/2024 - 12/2024",
+    date: "01/2023 - 08/2024",
     title: "Frontend Engineer",
     description:
       "First hire to develop CEPHER's first official website, establishing its online presence to enhance visibility and accessibility for a wider audience.",
   },
   {
     company: "Engaj Media",
-    date: "07/2023 - 10/2023",
+    date: "06/2022 - 12/2022",
     title: "Web Design Intern",
     description:
       "Led the design of Engaj Media's first official website, working with a cross-functional team to create a modern, 3D-enhanced user experience.",
@@ -149,7 +142,7 @@ const ExperienceItem = ({ exp, testimonial, fromLeft, index }) => {
           fromLeft ? "sm:order-1 sm:pr-8" : "sm:order-2 sm:pl-8"
         }`}
       >
-        <motion.div
+        {/* <motion.div
           className="bg-linear-to-br from-[#071028] to-[#0b1220] p-6 rounded-2xl border border-gray-800 transition-all duration-300 shadow-lg h-full flex flex-col justify-between"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -189,7 +182,7 @@ const ExperienceItem = ({ exp, testimonial, fromLeft, index }) => {
               Work with us ↗
             </a>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.div>
   );
@@ -214,7 +207,10 @@ export default function Experience() {
         <h2 className="text-3xl md:text-5xl font-bold mb-2 capitalize">
           Professional Work Experience
         </h2>
-        <p className="text-gray-400 text-lg">We believe our work speaks for itself, backed by positive feedback from our clients.</p>
+        <p className="text-gray-400 text-lg">
+          We believe our work speaks for itself, backed by positive feedback
+          from our clients.
+        </p>
       </div>
 
       <div className="relative w-full sm:w-4/5">
