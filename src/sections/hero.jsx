@@ -6,16 +6,6 @@ const HERO_IMAGE = "/images/Hero.png";
 export default function Hero() {
   return (
     <section className="relative flex min-h-svh items-end overflow-hidden bg-ink text-white">
-      {/* Background image */}
-      <Image
-        src={HERO_IMAGE}
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
-
       {/* Keeps the text readable on any photo. Adjust the opacities to taste. */}
       <div className="absolute inset-0 bg-linear-to-t from-black/75 via-black/30 to-black/10" />
 

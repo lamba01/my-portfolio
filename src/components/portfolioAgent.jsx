@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const STARTER_QUESTIONS = [
   "What's his tech stack?",
   "Has he worked with AI?",
-  "Tell me about UNDR.",
+  "How many years experience does he have?",
   "How do I get in touch?",
 ];
 

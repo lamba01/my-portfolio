@@ -6,7 +6,7 @@ export async function POST(req) {
   const { messages } = await req.json();
 
   const result = streamText({
-    model: "poolside/laguna-s-2.1-free",
+    model: "recursive/flint-v1.0",
     system: SYSTEM_PROMPT,
     messages: await convertToModelMessages(messages),
     tools: {
